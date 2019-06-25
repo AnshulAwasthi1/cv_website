@@ -1,0 +1,147 @@
+body{
+  font-family: "Montserrat";
+}
+
+.centre-align{
+  text-align: center;
+}
+.text-color{
+  color:white;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+.heading1{
+  font-family: Roboto;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+}
+
+h2{
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.7;
+  font-family: Montserrat-black;
+
+}
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 17%;
+
+}
+span{
+  margin-right: 10px;
+}
+
+/* Naviagtion Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Roboto;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 1rem
+}
+.nav-link{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "Montserrat-Light";
+  font-size: 1.25rem;
+}
+
+/* Download Buttons */
+
+
+.download_button_android{
+  margin: 5% 0;
+}
+
+
+.title_image{
+  width: 60%;
+  transform: rotate(0);
+  position: absolute;
+  border-radius: 100%;
+  right: 30%;
+}
+
+/* features section */
+
+#features{
+  padding: 7% 15% 7% 15%;
+  background-color: #fff;
+  position: relative;;
+}
+
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+
+
+/* Pricing Section */
+
+
+
+/* Media queried CSS */
+
+@media(max-width: 1028px) {
+  .title_image{
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 10% 20%;
+}
+
+.cta-heading{
+  font-family: Montserrat-black;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+/* Footer section */
+
+#footer{
+  text-align: center;
+  padding: 15% 7%;
+}
+
+.social-icon{
+  margin: 5%
+}
+
+.main-color{
+  color: #ff4c68;
+}
